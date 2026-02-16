@@ -14,7 +14,7 @@ public class CalculatorSwing extends JFrame implements ActionListener {
         setSize(350, 500); // Bigger window
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
-        getContentPane().setBackground(Color.DARK_GRAY); // Background colo
+        getContentPane().setBackground(Color.DARK_GRAY); // Background color
 
         // Display field
         display = new JTextField("0");
